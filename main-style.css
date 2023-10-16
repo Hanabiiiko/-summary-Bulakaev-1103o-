@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoMono;
+    src: url("fonts/RobotoMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: SFMono;
+    src: url("fonts/SFMonoRegular.ttf");
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.HexLogo {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    font-family: Roboto;
+    font-size: 0.8em;
+}
+
+.headers {
+    font-family: Montserrat;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 6px 10px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.Container {
+    height: 1180px;
+    width: 1640px;
+    column-count: 3;
+}
+
+.Container div {
+    font-family: Montserat;
+    font-size: 1em;
+    background: linear-gradient(#ffda40, #d936c0, #36bbce );
+    border-radius: 24px;
+    width: 530px;
+    height: 580px;
+    display: inline-block;
+}
+
+img {
+    height: 20%;
+}
+
+a:hover {
+    color: #ff7100;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer > p {
+    text-align: right;
+    font-size: 0.7em;
+    
+}
