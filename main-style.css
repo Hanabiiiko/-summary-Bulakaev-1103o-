@@ -24,6 +24,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     color: #212529;
+    background-color: rgb(228, 170, 240);
 }
 
 .HexLogo {
@@ -64,6 +65,16 @@ h2 {
     width: 530px;
     height: 580px;
     display: inline-block;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+
+.boxsh:hover {
+    box-shadow: 10px 5px 5px rgba(133, 133, 133, 0.856);
+}
+
+.htmlimg {
+    display: flex;
 }
 
 img {
