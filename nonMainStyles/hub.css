@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "SFMono";
+    src: url("font/SFMonoRegular.ttf");
+}
+
+html {
+    font-family: "Roboto";
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(53, 53, 53); 
+    background: linear-gradient(to bottom, #ffccff 0%, #99ccff 65%);
+}
+
+header {
+    font-family: "Roboto";
+    font-size: 0.8em;
+}
+
+header a {
+    display: block;
+    position: relative;
+    width: 200px;
+}
+
+
+h1,
+h2,
+h3 {
+    display: block;
+    font-family: "Montserrat";
+    text-align: left;
+    padding: 6px 10px;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.container {
+    width: 1640px;
+}
+
+footer .date_creation {
+    text-align: right;
+    font-size: 0.7em;
+    position: relative;
+    right: 20px;
+}
+
+.Hexlet a {
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left: 100px;
+}
+
+.Hexlet {
+    text-align: center;
+}
+
+
+.topic {
+    list-style: none;
+}
+
+.conspect {
+    padding: 20px;
+}
+
+.list {
+    list-style: none;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+span {
+    font-weight: bolder;
+}

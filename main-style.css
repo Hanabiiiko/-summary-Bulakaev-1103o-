@@ -20,77 +20,105 @@
 
 body {
     margin: 0;
-    font-weight: 400;
     font-size: 18px;
+    font-weight: 400;
     line-height: 1.5;
-    color: #212529;
-    background-color: rgb(228, 170, 240);
-}
-
-.HexLogo {
-    width: 50px;
-    height: 50px;
+    color: rgb(61, 61, 61);
+    background: linear-gradient(to bottom, #ffccff 0%, #99ccff 65%);
 }
 
 header {
     font-family: Roboto;
-    font-size: 0.8em;
+    font-size: 0,8em;
 }
 
-.headers {
-    font-family: Montserrat;
+header img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 1vw;
+    margin-top: 1vw;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Montserrat";
+    text-align: left;
+    padding: 6px 10px;
 }
 
 h1 {
     font-size: 1.5em;
-    text-align: left;
-    padding: 6px 10px;
 }
 
 h2 {
     font-size: 2em;
 }
 
-.Container {
-    height: 1180px;
-    width: 1640px;
-    column-count: 3;
-}
-
-.Container div {
-    font-family: Montserat;
-    font-size: 1em;
-    background: linear-gradient(#ffda40, #d936c0, #36bbce );
-    border-radius: 24px;
-    width: 530px;
-    height: 580px;
-    display: inline-block;
-    margin-top: 10px;
-    column-gap: 10px;
-}
-
-.boxsh:hover {
-    box-shadow: 10px 5px 5px rgba(133, 133, 133, 0.856);
-}
-
-.htmlimg {
-    display: flex;
-}
-
-img {
-    height: 20%;
-}
-
-a:hover {
-    color: #ff7100;
-}
-
 a {
     text-decoration: none;
 }
 
-footer > p {
-    text-align: right;
-    font-size: 0.7em;
-    
+.obertka {
+    width: 1640px;
+    height: 1180px;
+    column-count: 3;
 }
+
+.frames {
+    position: relative;
+    font-family: Montserrat;
+    width: 530px;
+    height: 580px;
+    border-radius: 24px;
+    font-size: 1em;
+    display: inline-block;
+    background: linear-gradient(#ffda40, #d936c0, #36bbce);
+    border: #d936c117;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    /* transition: 0.5s; */
+}
+
+.frames a:hover {
+    color: #df0daab4;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.342);
+    text-shadow: 5px 5px 5px gray;
+
+}
+
+.frames:hover {
+    outline: 3px solid azure;
+}
+
+.frames img {
+    position: relative;
+    top: 40%;
+    left: 40%;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-weight: normal;
+}
+
+.frames h3 {
+    display: inline;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.HexLogo a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(47, 129, 134);
+    position: relative;
+    left: 100px;
+}
+
+.HexLogo {
+    text-align: center;
+}
+
